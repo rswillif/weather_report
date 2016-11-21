@@ -1,0 +1,110 @@
+.title-header {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 75px;
+  color: white;
+  background-color: rgba(80, 140, 231, 1);
+  margin: auto;
+  padding-left: 450px;
+  padding-top: 10px;
+}
+
+.title-header .glyphicon {
+
+}
+
+.water-droplet {
+
+}
+
+.site-name {
+  /*font-family: 'Lobster', cursive;
+  font-weight: bold;
+  font-size: 75px;
+  color: white;
+  background-color: rgba(80, 140, 231, 1);
+  margin: auto;
+  padding-left: 450px;*/
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+.current-conditions {
+  background-color: red;
+  height: 200px;
+  width: 20%;
+}
+
+.current-conditions #cc-title {
+  color: white;
+}
+
+.ten-day-forecast {
+  background-color: green;
+  height: 200px;
+  width: 20%;
+}
+
+.ten-day-forecast #ftd-title {
+  color: white;
+}
+
+.sun-rise-set {
+  background-color: yellow;
+  height: 200px;
+  width: 20%;
+}
+
+.sun-rise-set #srs-title{
+  color: white;
+}
+
+.current-alerts {
+  background-color: pink;
+  height: 200px;
+  width: 20%;
+}
+
+.current-alerts #ca-title {
+  color: white;
+}
+
+.active-hurricanes {
+  background-color: purple;
+  height: 200px;
+  width: 20%;
+}
+
+.active-hurricanes #ah-title {
+  color: white;
+}

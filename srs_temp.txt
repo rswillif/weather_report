@@ -1,0 +1,47 @@
+http://api.wunderground.com/api/80fa8270fa93ea54/astronomy/q/27606.json
+
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "astronomy": 1
+    }
+  },
+  "moon_phase": {
+    "percentIlluminated": "0",
+    "ageOfMoon": "0",
+    "phaseofMoon": "New Moon",
+    "hemisphere": "North",
+    "current_time": {
+      "hour": "15",
+      "minute": "02"
+    },
+    "sunrise": {
+      "hour": "7",
+      "minute": "35"
+    },
+    "sunset": {
+      "hour": "18",
+      "minute": "20"
+    },
+    "moonrise": {
+      "hour": "7",
+      "minute": "20"
+    },
+    "moonset": {
+      "hour": "18",
+      "minute": "41"
+    }
+  },
+  "sun_phase": {
+    "sunrise": {
+      "hour": "7",
+      "minute": "35"
+    },
+    "sunset": {
+      "hour": "18",
+      "minute": "20"
+    }
+  }
+}

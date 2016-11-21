@@ -1,0 +1,96 @@
+http://api.wunderground.com/api/80fa8270fa93ea54/conditions/q/NC/Durham.json
+
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "conditions": 1
+    }
+  },
+  "current_observation": {
+    "image": {
+      "url": "http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title": "Weather Underground",
+      "link": "http://www.wunderground.com"
+    },
+    "display_location": {
+      "full": "Durham, NC",
+      "city": "Durham",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "country": "US",
+      "country_iso3166": "US",
+      "zip": "27701",
+      "magic": "1",
+      "wmo": "99999",
+      "latitude": "36.00000000",
+      "longitude": "-78.90000153",
+      "elevation": "121.9"
+    },
+    "observation_location": {
+      "full": "Trinity Park, Durham, North Carolina",
+      "city": "Trinity Park, Durham",
+      "state": "North Carolina",
+      "country": "US",
+      "country_iso3166": "US",
+      "latitude": "36.006924",
+      "longitude": "-78.910301",
+      "elevation": "400 ft"
+    },
+    "estimated": {
+    },
+    "station_id": "KNCDURHA44",
+    "observation_time": "Last Updated on October 28, 1:50 PM EDT",
+    "observation_time_rfc822": "Fri, 28 Oct 2016 13:50:38 -0400",
+    "observation_epoch": "1477677038",
+    "local_time_rfc822": "Fri, 28 Oct 2016 13:50:55 -0400",
+    "local_epoch": "1477677055",
+    "local_tz_short": "EDT",
+    "local_tz_long": "America/New_York",
+    "local_tz_offset": "-0400",
+    "weather": "Partly Cloudy",
+    "temperature_string": "70.8 F (21.6 C)",
+    "temp_f": 70.8,
+    "temp_c": 21.6,
+    "relative_humidity": "52%",
+    "wind_string": "Calm",
+    "wind_dir": "NE",
+    "wind_degrees": 56,
+    "wind_mph": 0.0,
+    "wind_gust_mph": 0,
+    "wind_kph": 0,
+    "wind_gust_kph": 0,
+    "pressure_mb": "1024",
+    "pressure_in": "30.25",
+    "pressure_trend": "-",
+    "dewpoint_string": "52 F (11 C)",
+    "dewpoint_f": 52,
+    "dewpoint_c": 11,
+    "heat_index_string": "NA",
+    "heat_index_f": "NA",
+    "heat_index_c": "NA",
+    "windchill_string": "NA",
+    "windchill_f": "NA",
+    "windchill_c": "NA",
+    "feelslike_string": "70.8 F (21.6 C)",
+    "feelslike_f": "70.8",
+    "feelslike_c": "21.6",
+    "visibility_mi": "10.0",
+    "visibility_km": "16.1",
+    "solarradiation": "--",
+    "UV": "5",
+    "precip_1hr_string": "0.00 in ( 0 mm)",
+    "precip_1hr_in": "0.00",
+    "precip_1hr_metric": " 0",
+    "precip_today_string": "0.00 in (0 mm)",
+    "precip_today_in": "0.00",
+    "precip_today_metric": "0",
+    "icon": "partlycloudy",
+    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+    "forecast_url": "http://www.wunderground.com/US/NC/Durham.html",
+    "history_url": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNCDURHA44",
+    "ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=36.006924,-78.910301",
+    "nowcast": ""
+  }
+}

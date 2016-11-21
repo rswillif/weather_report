@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../ui_test/index.css">
+  </head>
+  <body>
+    <div class="most-outer-container">
+      <div class="page-header title-header">
+        <!-- <h3 class="site-name">PRECIPICE</h3> -->
+        <p><span class="glyphicon glyphicon-tint water-droplet"></span>Weather</p>
+      </div>
+
+      <p></p>
+
+      <div id="custom-search-input">
+        <div class="input-group col-md-12">
+          <input type="text" class="form-control input-lg" placeholder="Enter zip code">
+          <span class="input-group-btn">
+          <button class="btn btn-info btn-lg search-button" type="button">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+          </span>
+        </div>
+      </div>
+
+      <p></p>
+
+      <div class="columns-container">
+        <div class="col-sm-4 current-conditions">
+          <p class="page-header" id="cc-title">CURRENT CONDITIONS</p>
+        </div>
+        <div class="col-sm-4 ten-day-forecast">
+          <p class="page-header" id="ftd-title">TEN DAY FORECAST</p>
+        </div>
+        <div class="col-sm-4 sun-rise-set">
+          <p class="page-header" id="srs-title">SUNRISE/SUNSET TIMES</p>
+        </div>
+        <div class="col-sm-4 current-alerts">
+          <p class="page-header" id="ca-title">CURRENT ALERTS</p>
+        </div>
+        <div class="col-sm-4 active-hurricanes">
+          <p class="page-header" id="ah-title">ACTIVE HURRICANES</p>
+        </div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>

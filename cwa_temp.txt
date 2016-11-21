@@ -1,0 +1,15 @@
+http://api.wunderground.com/api/80fa8270fa93ea54/alerts/q/27606.json
+
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "alerts": 1
+    }
+  },
+  "query_zone": "041",
+  "alerts": [
+
+  ]
+}
